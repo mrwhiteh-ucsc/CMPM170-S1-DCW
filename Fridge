@@ -1,4 +1,10 @@
 ===Fridge===
+    //first time vs return text
+    {(not fridge_met):
+        I'm starting to get hungry from all this detective work. Cant think on an empty stomach. I reached towards the handle as the extorminator
+            ~ fridge_met = true
+    - else: 
+        How may assist you?
+    }
 
-
-->DiningRoom
+    ->DiningRoom
